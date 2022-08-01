@@ -16,7 +16,7 @@ function AddUserForm(props) {
 	return (
 		<div>
 			<Form>
-				<Form.Group className="mb-3" controlId="formBasicEmail">
+				<Form.Group className="mb-3" controlId="Name">
 					<Form.Label>Name</Form.Label>
 					<Form.Control
 						type="Name"
@@ -26,7 +26,7 @@ function AddUserForm(props) {
 						}}
 					/>
 				</Form.Group>
-				<Form.Group className="mb-3" controlId="formBasicEmail">
+				<Form.Group className="mb-3" controlId="Email">
 					<Form.Label>Email address</Form.Label>
 					<Form.Control
 						type="email"
@@ -38,7 +38,7 @@ function AddUserForm(props) {
 					/>
 				</Form.Group>
 
-				<Form.Group className="mb-3" controlId="formBasicPassword">
+				<Form.Group className="mb-3" controlId="Password">
 					<Form.Label>Gen</Form.Label>
 					<Form.Control
 						type="text"
